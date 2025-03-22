@@ -8,13 +8,14 @@
     "linkedin": "galen-schreck"
   },
   "email": "galen@schreck.works",
-  "ps1_hostname": "liveterm",
+  "ps1_hostname": "schreck.works",
   "ps1_username": "visitor",
   "repo": "https://github.com/Cveinnt/LiveTerm",
+  "linkedin_url":"https://www.linkedin.com/in/galen-schreck",
+  "strava":"https://www.strava.com/athletes/1802074",
   "resume_url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Resume.pdf",
   "donate_urls": {
-    "paypal": "https://paypal.me/cveinnt",
-    "patreon": "https://patreon.com/cveinnt"
+    "paypal": "https://paypal.me/gdschreck",   
   },
   "colors": {
     "light": {
