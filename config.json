@@ -15,7 +15,8 @@
   "strava":"https://www.strava.com/athletes/1802074",
   "resume_url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Resume.pdf",
   "donate_urls": {
-    "paypal": "https://paypal.me/gdschreck",   
+    "paypal": "https://paypal.me/gdschreck",
+    "patreon": "https://patreon.com"   
   },
   "colors": {
     "light": {
