@@ -1,13 +1,13 @@
 {
   "readmeUrl": "https://raw.githubusercontent.com/cveinnt/cveinnt/master/README.md",
-  "title": "LiveTerm",
-  "name": "John Doe",
+  "title": "SchreckWorks",
+  "name": "Galen Schreck",
   "ascii": "liveterm",
   "social": {
     "github": "github",
-    "linkedin": "linkedin"
+    "linkedin": "https://www.linkedin.com/in/galen-schreck"
   },
-  "email": "contact@email.com",
+  "email": "galen@schreck.works",
   "ps1_hostname": "liveterm",
   "ps1_username": "visitor",
   "repo": "https://github.com/Cveinnt/LiveTerm",
