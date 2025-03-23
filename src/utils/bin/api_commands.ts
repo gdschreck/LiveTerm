@@ -39,6 +39,6 @@ export const weather = async (args: string[]): Promise<string> => {
 
 export const aurora = async (args: string[]): Promise<string> => {
   const aurora = await getAurora();
-  return `Fetching space weather forecast...\n
+  return `Fetching 3-day space weather forecast...\n
   ${aurora}`;
 };

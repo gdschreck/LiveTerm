@@ -36,3 +36,8 @@ export const getQuote = async () => {
     };
   };
 };
+
+export const getAurora = async () => {
+  const { data } = await axios.get(config.aurora);
+  return data;
+};
