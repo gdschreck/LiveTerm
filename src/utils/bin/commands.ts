@@ -32,9 +32,11 @@ export const repo = async (args: string[]): Promise<string> => {
 export const about = async (args: string[]): Promise<string> => {
   return `Hi, I am ${config.name}. 
 Welcome to the website for SchreckWorks LLC
+Fractional CTO services and IT strategy guidance
+
 More about me:
+'linkedin' - my linkedin profile. 
 'sumfetch' - short summary.
-'resume' - my latest resume.
 'readme' - my github readme.`;
 };
 
@@ -109,7 +111,7 @@ directories`;
 };
 
 export const cd = async (args: string[]): Promise<string> => {
-  return `your sense of adventure is admirable, but no poking around!'.`;
+  return `your sense of adventure is admirable, but no poking around!`;
 };
 
 export const date = async (args: string[]): Promise<string> => {
