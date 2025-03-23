@@ -24,7 +24,7 @@ export const getWeather = async (city: string) => {
 
 export const getQuote = async () => {
   try {
-    const { data } = await axios.get('https://zenquotes.io/api/random');
+    const { data } = await axios.get('https://crossorigin.me/https://zenquotes.io/api/random');
     const quoteData = data[0]; // Get the first item from the array
     return {
       quote: `“${quoteData.q}” — ${quoteData.a}`,
