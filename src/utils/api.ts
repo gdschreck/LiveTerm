@@ -23,9 +23,16 @@ export const getWeather = async (city: string) => {
 };
 
 export const getQuote = async () => {
-  const { data } = await axios.get('https://zenquotes.io/api/random');
-  const quoteData = data[0]; // Get the first item from the array
-  return {
-    quote: `“${quoteData.q}” — ${quoteData.a}`,
+  try {
+    const { data } = await axios.get('https://zenquotes.io/api/random');
+    const quoteData = data[0]; // Get the first item from the array
+    return {
+      quote: `“${quoteData.q}” — ${quoteData.a}`,
+    };
+  } catch (error) {
+    console.error('Failed to fetch quote:', error);
+    return {
+      quote: 'Could not fetch a quote at this time.',
+    };
   };
 };
