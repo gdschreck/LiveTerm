@@ -31,7 +31,7 @@ export const repo = async (args: string[]): Promise<string> => {
 // About
 export const about = async (args: string[]): Promise<string> => {
   return `Hi, I am ${config.name}. 
-Welcome to my website!
+Welcome to the website for SchreckWorks LLC
 More about me:
 'sumfetch' - short summary.
 'resume' - my latest resume.
@@ -109,8 +109,7 @@ directories`;
 };
 
 export const cd = async (args: string[]): Promise<string> => {
-  return `unfortunately, i cannot afford more directories.
-if you want to help, you can type 'donate'.`;
+  return `your sense of adventure is admirable, but no poking around!'.`;
 };
 
 export const date = async (args: string[]): Promise<string> => {
