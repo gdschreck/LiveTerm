@@ -48,7 +48,7 @@ export const resume = async (args: string[]): Promise<string> => {
 // Pay invoice
 export const pay = async (args: string[]): Promise<string> => {
   window.open(`${config.billPay_url}`);
-  return `opening bill pay...';
+  return `opening bill pay...`;
 };
 
 // Donate
