@@ -15,6 +15,7 @@
   "strava":"https://www.strava.com/athletes/1802074",
   "aurora":"https://services.swpc.noaa.gov/text/3-day-forecast.txt",
   "resume_url": "https://schreckworks-assets.s3.us-east-1.amazonaws.com/Galen+Schreck+resume+web.pdf",
+  "billPay_url":"https://app.autobooks.co/pay/schreck-works",
   "donate_urls": {
     "paypal": "https://paypal.me/gdschreck",
     "patreon": "https://patreon.com"   

@@ -45,6 +45,12 @@ export const resume = async (args: string[]): Promise<string> => {
   return 'Opening resume...';
 };
 
+// Pay invoice
+export const pay = async (args: string[]): Promise<string> => {
+  window.open(`${config.billPay_url}`);
+  return `opening bill pay...';
+};
+
 // Donate
 //export const donate = async (args: string[]): Promise<string> => {
 //  return `thank you for your interest. 
