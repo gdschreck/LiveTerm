@@ -2,6 +2,12 @@ import Head from 'next/head';
 import React from 'react';
 
 const PrivacyPage: React.FC = () => {
+
+  const sectionSpacing = "space-y-4";
+  const cardStackSpacing = "mt-4 space-y-6";
+  const cardClass =
+    "rounded-lg border border-slate-700 bg-slate-800/60 p-8 shadow-sm";
+  const listClass = "list-disc pl-6 space-y-1 mb-6";
   return (
     <>
       <Head>
@@ -21,14 +27,15 @@ const PrivacyPage: React.FC = () => {
             </p>
           </header>
 
-          <section>
+          <section className={sectionSpacing}>
             <h2 className="text-xl font-semibold">1. Information We Collect</h2>
             <p className="mt-2">
               We may collect the following types of information:
             </p>
-            <div className="card">
-              <h3 style={{ margin: "0 0 8px 0", fontSize: "1.05rem" }}>Contact Information</h3>
-              <ul className="list-disc pl-6 space-y-1">
+            <div className={cardStackSpacing}>
+              <div className={cardClass}>
+              <h3 className="mb-2 text-base font-semibold">Contact Information</h3>
+              <ul className={listClass}>
                 <li>Name</li>
                 <li>Email address</li>
                 <li>Phone number</li>
@@ -37,18 +44,18 @@ const PrivacyPage: React.FC = () => {
               </ul>
             </div>
 
-            <div className="card">
-              <h3 style={{ margin: "0 0 8px 0", fontSize: "1.05rem" }}>Communication Data</h3>
-              <ul className="list-disc pl-6 space-y-1">
+            <div className={cardClass}>
+              <h3 className="mb-2 text-base font-semibold">Communication Data</h3>
+              <ul className={listClass}>
                 <li>Email correspondence</li>
                 <li>SMS/text message communications</li>
                 <li>Customer service inquiries</li>
               </ul>
             </div>
 
-            <div className="card">
-              <h3 style={{ margin: "0 0 8px 0", fontSize: "1.05rem" }}>Website &amp; Analytics Data</h3>
-              <ul className="list-disc pl-6 space-y-1">
+            <div className={cardClass}>
+              <h3 className="mb-2 text-base font-semibold">Website &amp; Analytics Data</h3>
+              <ul className={listClass}>
                 <li>IP address</li>
                 <li>Browser type and device information</li>
                 <li>Pages visited and time spent</li>
@@ -57,8 +64,10 @@ const PrivacyPage: React.FC = () => {
               </ul>
             </div>
 
+            </div>
+
             <p>We collect this information when you:</p>
-            <ul className="list-disc pl-6 space-y-1">
+            <ul className={listClass}>
               <li>Visit our website</li>
               <li>Contact us by email or phone</li>
               <li>Text our business number</li>
@@ -68,12 +77,12 @@ const PrivacyPage: React.FC = () => {
 
           </section>
 
-          <section>
+          <section className={sectionSpacing}>
             <h2 className="text-xl font-semibold">2. How We Use This Information</h2>
             <p className="mt-2">
               We use collected information to:
             </p>
-            <ul className="list-disc pl-6 space-y-1">
+            <ul className={listClass}>
               <li>Communicate with you directly (email, phone, SMS)</li>
               <li>Provide requested services or information</li>
               <li>Send newsletters, marketing communications, and updates (with your consent)</li>
@@ -84,13 +93,12 @@ const PrivacyPage: React.FC = () => {
             <p><strong>We do not sell, rent, or trade your personal information.</strong></p>
           </section>
 
-          <section>
+          <section className={sectionSpacing}>
             <h2 className="text-xl font-semibold">3. SMS Messaging</h2>
             <p className="mt-2">
-              We use collected information to:
+              If you communicate with us via SMS:
             </p>
-            <p>If you communicate with us via SMS:</p>
-            <ul className="list-disc pl-6 space-y-1">
+            <ul className={listClass}>
               <li>Messages are conversational and person-to-person.</li>
               <li>No automated or bulk messaging is used.</li>
               <li>Message frequency varies.</li>
@@ -104,16 +112,16 @@ const PrivacyPage: React.FC = () => {
             </p>
           </section>
 
-          <section>
+          <section className={sectionSpacing}>
             <h2 className="text-xl font-semibold">4. Email Communications</h2>
             <p>We may send:</p>
-            <ul className="list-disc pl-6 space-y-1">
+            <ul className={listClass}>
               <li>Direct 1:1 business communications</li>
               <li>Service-related emails</li>
               <li>Marketing emails and newsletters (if you opt in)</li>
             </ul>
             <p>You may unsubscribe from marketing emails at any time by:</p>
-            <ul className="list-disc pl-6 space-y-1">
+            <ul className={listClass}>
               <li>Clicking the “unsubscribe” link in the email, or</li>
               <li>Contacting <a href="mailto:support@schreck.works">support@schreck.works</a>.</li>
             </ul>
@@ -122,10 +130,10 @@ const PrivacyPage: React.FC = () => {
             </p>
           </section>
 
-          <section>
+          <section className={sectionSpacing}>
             <h2 className="text-xl font-semibold">5. Website Analytics &amp; Marketing Tools</h2>
             <p>We use standard website analytics and marketing tools to:</p>
-            <ul className="list-disc pl-6 space-y-1">
+            <ul className={listClass}>
               <li>Monitor website performance</li>
               <li>Measure marketing effectiveness</li>
               <li>Understand visitor behavior</li>
@@ -137,16 +145,16 @@ const PrivacyPage: React.FC = () => {
             <p>Analytics data is used in aggregate form and is not sold.</p>
           </section>
 
-          <section>
+          <section className={sectionSpacing}>
             <h2 className="text-xl font-semibold">6. Data Retention</h2>
             <p>We retain personal information only as long as necessary to provide services, comply with legal or regulatory obligations, resolve disputes, and maintain business records.</p>
           </section>
 
-          <section>
+          <section className={sectionSpacing}>
             <h2 className="text-xl font-semibold">7. Your Rights</h2>
             <p>You may:</p>
             <p>You may:</p>
-            <ul className="list-disc pl-6 space-y-1">
+            <ul className={listClass}>
               <li>Request access to the personal information we hold about you</li>
               <li>Request correction of inaccurate information</li>
               <li>Request deletion of your personal information</li>
@@ -158,7 +166,7 @@ const PrivacyPage: React.FC = () => {
             </p>
           </section>
 
-          <section>
+          <section className={sectionSpacing}>
             <h2 className="text-xl font-semibold">8. Data Security</h2>
             <p className="mt-2">
               We implement reasonable administrative, technical, and organizational safeguards to protect personal information from unauthorized access, disclosure, or misuse.
@@ -166,21 +174,21 @@ const PrivacyPage: React.FC = () => {
             </p>
           </section>
 
-          <section>
+          <section className={sectionSpacing}>
             <h2 className="text-xl font-semibold">9. Third-Party Services</h2>
             <p className="mt-2">
               We may use trusted third-party service providers (e.g., email platforms, analytics providers, communication platforms) to operate our business. These providers are required to safeguard personal information and use it only for authorized purposes.
             </p>
           </section>
 
-          <section>
+          <section className={sectionSpacing}>
             <h2 className="text-xl font-semibold">10. Children’s Privacy</h2>
             <p className="mt-2">
               Our services are not directed to individuals under 18 years of age. We do not knowingly collect personal information from children.
             </p>
           </section>
 
-          <section>
+          <section className={sectionSpacing}>
             <h2 className="text-xl font-semibold">11. Contact Us</h2>
             <p className="mt-2">
               If you have questions about this Privacy Policy or wish to exercise your rights, please contact:
