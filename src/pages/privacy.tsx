@@ -153,7 +153,6 @@ const PrivacyPage: React.FC = () => {
           <section className={sectionSpacing}>
             <h2 className="text-xl font-semibold">7. Your Rights</h2>
             <p>You may:</p>
-            <p>You may:</p>
             <ul className={listClass}>
               <li>Request access to the personal information we hold about you</li>
               <li>Request correction of inaccurate information</li>
