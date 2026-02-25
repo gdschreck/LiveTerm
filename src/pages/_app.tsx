@@ -1,13 +1,17 @@
 import React from 'react';
 import '../styles/global.css';
 import Head from 'next/head';
-import { Analytics } from "@vercel/analytics/react"
+import { useRouter } from 'next/router';
+import { Analytics } from '@vercel/analytics/react';
 
 const App = ({ Component, pageProps }) => {
   const inputRef = React.useRef<HTMLInputElement>(null);
+  const { pathname } = useRouter();
 
   const onClickAnywhere = () => {
-    inputRef.current.focus();
+    if (pathname === '/') {
+      inputRef.current?.focus();
+    }
   };
 
   return (
