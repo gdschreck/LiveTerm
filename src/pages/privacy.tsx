@@ -28,7 +28,7 @@ const PrivacyPage: React.FC = () => {
             </p>
             <div className="card">
               <h3 style={{ margin: "0 0 8px 0", fontSize: "1.05rem" }}>Contact Information</h3>
-              <ul>
+              <ul className="list-disc pl-6 space-y-1">
                 <li>Name</li>
                 <li>Email address</li>
                 <li>Phone number</li>
@@ -39,7 +39,7 @@ const PrivacyPage: React.FC = () => {
 
             <div className="card">
               <h3 style={{ margin: "0 0 8px 0", fontSize: "1.05rem" }}>Communication Data</h3>
-              <ul>
+              <ul className="list-disc pl-6 space-y-1">
                 <li>Email correspondence</li>
                 <li>SMS/text message communications</li>
                 <li>Customer service inquiries</li>
@@ -48,7 +48,7 @@ const PrivacyPage: React.FC = () => {
 
             <div className="card">
               <h3 style={{ margin: "0 0 8px 0", fontSize: "1.05rem" }}>Website &amp; Analytics Data</h3>
-              <ul>
+              <ul className="list-disc pl-6 space-y-1">
                 <li>IP address</li>
                 <li>Browser type and device information</li>
                 <li>Pages visited and time spent</li>
@@ -58,7 +58,7 @@ const PrivacyPage: React.FC = () => {
             </div>
 
             <p>We collect this information when you:</p>
-            <ul>
+            <ul className="list-disc pl-6 space-y-1">
               <li>Visit our website</li>
               <li>Contact us by email or phone</li>
               <li>Text our business number</li>
@@ -73,7 +73,7 @@ const PrivacyPage: React.FC = () => {
             <p className="mt-2">
               We use collected information to:
             </p>
-            <ul>
+            <ul className="list-disc pl-6 space-y-1">
               <li>Communicate with you directly (email, phone, SMS)</li>
               <li>Provide requested services or information</li>
               <li>Send newsletters, marketing communications, and updates (with your consent)</li>
@@ -90,7 +90,7 @@ const PrivacyPage: React.FC = () => {
               We use collected information to:
             </p>
             <p>If you communicate with us via SMS:</p>
-            <ul>
+            <ul className="list-disc pl-6 space-y-1">
               <li>Messages are conversational and person-to-person.</li>
               <li>No automated or bulk messaging is used.</li>
               <li>Message frequency varies.</li>
@@ -107,13 +107,13 @@ const PrivacyPage: React.FC = () => {
           <section>
             <h2 className="text-xl font-semibold">4. Email Communications</h2>
             <p>We may send:</p>
-            <ul>
+            <ul className="list-disc pl-6 space-y-1">
               <li>Direct 1:1 business communications</li>
               <li>Service-related emails</li>
               <li>Marketing emails and newsletters (if you opt in)</li>
             </ul>
             <p>You may unsubscribe from marketing emails at any time by:</p>
-            <ul>
+            <ul className="list-disc pl-6 space-y-1">
               <li>Clicking the “unsubscribe” link in the email, or</li>
               <li>Contacting <a href="mailto:support@schreck.works">support@schreck.works</a>.</li>
             </ul>
@@ -125,7 +125,7 @@ const PrivacyPage: React.FC = () => {
           <section>
             <h2 className="text-xl font-semibold">5. Website Analytics &amp; Marketing Tools</h2>
             <p>We use standard website analytics and marketing tools to:</p>
-            <ul>
+            <ul className="list-disc pl-6 space-y-1">
               <li>Monitor website performance</li>
               <li>Measure marketing effectiveness</li>
               <li>Understand visitor behavior</li>
@@ -146,7 +146,7 @@ const PrivacyPage: React.FC = () => {
             <h2 className="text-xl font-semibold">7. Your Rights</h2>
             <p>You may:</p>
             <p>You may:</p>
-            <ul>
+            <ul className="list-disc pl-6 space-y-1">
               <li>Request access to the personal information we hold about you</li>
               <li>Request correction of inaccurate information</li>
               <li>Request deletion of your personal information</li>
