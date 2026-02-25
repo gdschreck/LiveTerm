@@ -26,8 +26,8 @@ const PrivacyPage: React.FC = () => {
             <p className="mt-2">
               We may collect the following types of information:
             </p>
-            <div class="card">
-              <h3 style="margin:0 0 8px 0; font-size:1.05rem;">Contact Information</h3>
+            <div className="card">
+              <h3 style={{ margin: "0 0 8px 0", fontSize: "1.05rem" }}>Contact Information</h3>
               <ul>
                 <li>Name</li>
                 <li>Email address</li>
@@ -37,8 +37,8 @@ const PrivacyPage: React.FC = () => {
               </ul>
             </div>
 
-            <div class="card">
-              <h3 style="margin:0 0 8px 0; font-size:1.05rem;">Communication Data</h3>
+            <div className="card">
+              <h3 style={{ margin: "0 0 8px 0", fontSize: "1.05rem" }}>Communication Data</h3>
               <ul>
                 <li>Email correspondence</li>
                 <li>SMS/text message communications</li>
@@ -46,8 +46,8 @@ const PrivacyPage: React.FC = () => {
               </ul>
             </div>
 
-            <div class="card">
-              <h3 style="margin:0 0 8px 0; font-size:1.05rem;">Website &amp; Analytics Data</h3>
+            <div className="card">
+              <h3 style={{ margin: "0 0 8px 0", fontSize: "1.05rem" }}>Website &amp; Analytics Data</h3>
               <ul>
                 <li>IP address</li>
                 <li>Browser type and device information</li>
