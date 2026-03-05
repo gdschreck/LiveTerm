@@ -21,7 +21,7 @@ const PrivacyPage: React.FC = () => {
       <main className="p-8 overflow-y-auto h-full border-2 rounded border-light-yellow dark:border-dark-yellow">
         <article className="max-w-3xl space-y-6">
           <header>
-            <h1 className="text-2xl font-bold">Privacy Policy</h1>
+            <h1 className="text-2xl font-bold">Privacy Policy -- Terms & Conditions</h1>
             <p className="mt-2">
               Schreck Works LLC (“Schreck Works,” “we,” “our,” or “us”) respects your privacy and is committed to protecting your personal information. This Privacy Policy explains how we collect, use, and safeguard information obtained through our website, email communications, and SMS messaging.
             </p>
