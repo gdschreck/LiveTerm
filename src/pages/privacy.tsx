@@ -11,10 +11,10 @@ const PrivacyPage: React.FC = () => {
   return (
     <>
       <Head>
-        <title>Privacy Policy</title>
+        <title>Privacy Policy -- Terms & Conditions</title>
         <meta
           name="description"
-          content="Read the privacy policy for the LiveTerm website and terminal experience."
+          content="Read the privacy policy for the Schreck Works LLC website and terminal experience."
         />
       </Head>
 
